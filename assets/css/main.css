@@ -257,34 +257,12 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
-		max-width: calc(100% - 4em);
-		width: 35em;
+		margin-left: 0px;
+		left: 0px;
+		right: 0px;
+	
 	}
 
-		.container.xsmall {
-			width: 8.75em;
-		}
-
-		.container.small {
-			width: 17.5em;
-		}
-
-		.container.medium {
-			width: 26.25em;
-		}
-
-		.container.large {
-			width: 43.75em;
-		}
-
-		.container.xlarge {
-			width: 52.5em;
-		}
-
-		.container.max {
-			width: 100%;
-		}
 
 		@media screen and (max-width: 980px) {
 
@@ -2839,8 +2817,6 @@ input, select, textarea {
 		#header .container {
 			background: rgba(255, 255, 255, 0.95);
 			bottom: 0;
-			left: 50%;
-			margin-left: -17.5em;
 			padding: 2.5em;
 			position: absolute;
 		}
@@ -2850,7 +2826,7 @@ input, select, textarea {
 			}
 
 			#header .container .button {
-				min-width: 12em;
+				min-width: 100%;
 			}
 
 /* Footer */
@@ -2953,8 +2929,7 @@ input, select, textarea {
 			}
 
 			#header .container {
-				margin-left: -40%;
-				padding: 3em;
+				width: auto;
 			}
 
 		/* Footer */
